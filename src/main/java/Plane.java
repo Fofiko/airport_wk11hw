@@ -11,4 +11,17 @@ public class Plane {
         this.passengers = new ArrayList<>();
     }
 
+    public JetType getJetType() {
+        return this.jetType;
+    }
+
+    public int getCapacity(){
+        return this.jetType.getCapacity();
+    }
+
+    public AirlineName getAirlineName() {
+        return this.airlineName;
+    }
+
+
 }
