@@ -27,5 +27,8 @@ public class PlaneTest {
         assertEquals(AirlineName.AEGEAN, plane.getAirlineName());
     }
 
-
+    @Test
+    public void planeStartsEmpty(){
+        assertEquals(0, plane.countPassengers());
+    }
 }

@@ -24,4 +24,7 @@ public class Plane {
     }
 
 
+    public int countPassengers() {
+        return passengers.size();
+    }
 }
