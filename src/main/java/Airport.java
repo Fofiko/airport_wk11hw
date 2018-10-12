@@ -18,4 +18,12 @@ public class Airport {
     public int countPlanes() {
         return hangar.size();
     }
+
+    public void addPlane(Plane plane) {
+        this.hangar.add(plane);
+    }
+
+    public void removePlane(Plane plane) {
+        this.hangar.remove(plane);
+    }
 }
